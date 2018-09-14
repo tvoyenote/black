@@ -13,6 +13,28 @@ body{
     background-color: rgba(0, 0, 0, 0.89); 
     padding: 25px 100px 300px;  
 } 
+.menu {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.menu:hover {
+    background-color: #808080;;
+}
+.menu__child {
+    display: none;
+    background-color: #808080;
+    width: 150px;
+}
+.menu__child a {
+    color: rgb(43, 41, 41);
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.menu:hover .menu__child {
+    display: block;
+}
 p{
     font-family: 'Rajdhani', sans-serif;
     font-size: 300;
@@ -34,4 +56,3 @@ span{
 .read__more{
     padding-bottom: 50px;
 }
-
