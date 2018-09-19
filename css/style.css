@@ -37,4 +37,9 @@ span{
 }
 .menu-item{
     display: none;
+    position: absolute;
+}
+li a{
+    color: #808080;
+    text-decoration: none;
 }
