@@ -35,3 +35,6 @@ span{
 .read__more{
     padding-bottom: 50px;
 }
+.menu-item{
+    display: none;
+}
