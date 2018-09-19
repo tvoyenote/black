@@ -35,29 +35,3 @@ span{
 .read__more{
     padding-bottom: 50px;
 }
-
-.menu ul {
-    margin: 0;
-    list-style: none;
-    padding-left: 20px;
-    display: none;
-  }
-
-.title {
-    font-size: 18px;
-    cursor: pointer;
-  }
-
-.title::before {
-    content: ' ';
-    font-size: 80%;
-    color: green;
-  }
-
-.menu.open .title::before {
-    content: '';
-  }
-
-.menu.open ul {
-    display: block;
-  }
