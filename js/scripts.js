@@ -1,1 +1,1 @@
-$("link").hide();
+$("menu-item").hide();
