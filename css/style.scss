@@ -35,9 +35,12 @@ span{
 .read__more{
     padding-bottom: 50px;
 }
-.menu-item{
-    display: none;
+.menu__item{
+    display: flex;
     position: absolute;
+    
+    
+
 }
 li a{
     color: #808080;
