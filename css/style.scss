@@ -18,6 +18,7 @@ body{
     position: relative;
 }
 .nav {
+    // display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,7 +33,6 @@ span{
     font-weight: bold;
     color: #ff0000;
 }
-
 .info{
     padding-top: 100px;
     text-align: center;
@@ -40,13 +40,10 @@ span{
 .read__more{
     padding-bottom: 50px;
 }
-.menu__item{
-    display: flex;
-    position: absolute;
-}
 li a{
     color: #808080;
     text-decoration: none;
 }
+
 
 
