@@ -9,7 +9,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.section{
+.section {
     background-color: rgba(0, 0, 0, 0.89); 
     height: 100vh;
     padding: 20px;
@@ -24,23 +24,23 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-p{
+p {
     font-family: 'Rajdhani', sans-serif;
     font-size: 300;
     color: #808080;
 }
-span{
+span {
     font-weight: bold;
     color: #ff0000;
 }
-.info{
+.info {
     padding-top: 100px;
     text-align: center;
 }
-.read__more{
+.read__more {
     padding-bottom: 50px;
 }
-li a{
+li a {
     color: #808080;
     text-decoration: none;
 }
