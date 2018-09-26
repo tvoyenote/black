@@ -17,12 +17,21 @@ body{
 .header {
     position: relative;
 }
+.btn.btn-outline-secondary {
+
+}
 .nav {
-    // display: none;
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
+}
+.social {
+    &__list{
+    display: flex;    
+    }
 }
 p {
     font-family: 'Rajdhani', sans-serif;
@@ -42,8 +51,14 @@ span {
 }
 li a {
     color: #808080;
-    text-decoration: none;
+    box-sizing: border-box; 
+    margin-right: 15px;
 }
-
-
+li a:hover{
+    text-decoration: none;
+    color: #ff0000;
+}
+.second__text{
+    display: none;
+}
 

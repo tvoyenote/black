@@ -1,1 +1,1 @@
-var menuElem=document.getElementById("nav"),titleElem=menuElem.querySelector(".title");titleElem.onclick=function(){menuElem.classList.toggle("open")};
+$(".link").click(function(){$(".nav").slideToggle()}),$(".btn .btn-outline-secondary").click(function(){$(".second__text").slideToggle()});

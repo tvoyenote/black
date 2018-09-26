@@ -18,12 +18,18 @@ body {
   position: relative; }
 
 .nav {
+  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
+
+.social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 p {
   font-family: 'Rajdhani', sans-serif;
@@ -43,4 +49,13 @@ span {
 
 li a {
   color: #808080;
-  text-decoration: none; }
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-right: 15px; }
+
+li a:hover {
+  text-decoration: none;
+  color: #ff0000; }
+
+.second__text {
+  display: none; }
