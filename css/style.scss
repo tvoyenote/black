@@ -30,7 +30,10 @@ body{
 }
 .social {
     &__list{
-    display: flex;    
+    display: flex;
+    position: absolute; 
+    bottom: 0;  
+    transform: translate(-50%, -50%); 
     }
 }
 p {

@@ -29,7 +29,12 @@ body {
 .social__list {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
 
 p {
   font-family: 'Rajdhani', sans-serif;
