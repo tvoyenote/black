@@ -1,1 +1,1 @@
-$(".link").click(function(){$(".nav").slideToggle()}),$(".btn .btn-outline-secondary").click(function(){$(".second__text").slideToggle()});
+$(".link").click(function(){$(".wrapper").slideToggle()}),$(".btn.btn-outline-secondary").click(function(){$(".second__text").slideToggle()});

@@ -11,14 +11,19 @@ body {
 
 .section {
   background-color: rgba(0, 0, 0, 0.89);
-  height: 100vh;
+  height: 100%;
   padding: 20px; }
 
 .header {
   position: relative; }
 
+.wrapper {
+  display: none; }
+
 .nav {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -29,12 +34,7 @@ body {
 .social__list {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); }
+  display: flex; }
 
 p {
   font-family: 'Rajdhani', sans-serif;
@@ -64,3 +64,25 @@ li a:hover {
 
 .second__text {
   display: none; }
+
+.gallery__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.gallery__text {
+  text-align: center;
+  color: #ff0000; }
+
+.photo img {
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%);
+  -webkit-filter: gray;
+  filter: gray;
+  /* IE 6-9 */
+  margin-top: 15px;
+  margin-right: -15px; }
+
+.photo img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%); }
