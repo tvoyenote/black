@@ -34,11 +34,25 @@ body{
     
 }
 .social {
+    margin-bottom: 35px;
+    &__icon img{
+        opacity: 1;
+    }
+    &__icon img:hover{
+        opacity: 0.6;;
+    }
     &__list{
     display: flex;
     // position: absolute; 
     // bottom: 0;  
     // transform: translate(-50%, -50%); 
+    }
+    &__text{
+    text-align: center;
+    color:  #98b4bb;
+    font-size: 18px;
+    text-decoration: overline;
+    margin-top: 35px; 
     }
 }
 p {
@@ -64,7 +78,7 @@ li a {
 }
 li a:hover{
     text-decoration: none;
-    color: #ff0000;
+    color: #98b4bb;
 }
 .second__text{
     display: none;
@@ -75,7 +89,9 @@ li a:hover{
     }
     &__text{
         text-align: center;
-        color: #ff0000;
+        color:  #98b4bb;
+        font-size: 18px;
+        text-decoration: overline;
     }
 }
 .photo img {
