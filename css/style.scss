@@ -34,7 +34,7 @@ body{
     
 }
 .social {
-    margin-bottom: 35px;
+    margin-bottom: 135px;
     &__icon img{
         opacity: 1;
     }
@@ -42,17 +42,19 @@ body{
         opacity: 0.6;;
     }
     &__list{
-    display: flex;
+    // display: flex;
     // position: absolute; 
     // bottom: 0;  
     // transform: translate(-50%, -50%); 
+    max-width: 150px;
+    margin: 0 auto;
     }
     &__text{
     text-align: center;
     color:  #98b4bb;
     font-size: 18px;
     text-decoration: overline;
-    margin-top: 35px; 
+    margin-top: 135px; 
     }
 }
 p {
@@ -85,7 +87,8 @@ li a:hover{
 }
 .gallery{
     &__list{
-        display: flex;
+        // display: flex;
+        min-width: 350px;
     }
     &__text{
         text-align: center;
@@ -107,4 +110,20 @@ li a:hover{
 .photo img:hover{
     filter: grayscale(0%);
 
+}
+.skills{
+    &__text{
+        text-align: center;
+        color:  #98b4bb;
+        font-size: 18px;
+        text-decoration: overline;
+        margin-top: 135px;
+    }
+}
+strong{
+    color: #ff0000;
+    position: absolute;
+    transform: translate(-137%, 75%); 
+    font-size: 28px;
+    font-weight: 400;
 }
